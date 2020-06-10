@@ -8,3 +8,6 @@ set `EXE_PATH` to the actual kubectl executable full path
 set `PROXY_DICT` to actual values
 
 Link `kubectl.py` to a path BEFORE te actual kubectl executable. Or find a way to execute this wrapper instead of the actual kubectl exe.
+
+ex: `ln -sf ~/Esperimenti/kubectl-wrapper/kubectl.py
+$HOME/.local/bin/kubectl`
